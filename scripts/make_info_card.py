@@ -26,9 +26,12 @@ parts = [
 for i, (k, v) in enumerate(rows):
     y = 100 + i * 34
     delay = i * 0.12
-    anim = "" if STATIC else f'<animate attributeName="opacity" from="0" to="1" begin="{delay:.2f}s" dur="0.18s" fill="freeze"/>'
-    parts.append(f'<text x="24" y="{y}" fill="#8b949e" font-family="monospace" font-size="13" opacity="0">{anim}{k:10}:</text>')
-    parts.append(f'<text x="125" y="{y}" fill="#c9d1d9" font-family="monospace" font-size="13" opacity="0">{anim}{v}</text>')
+    if STATIC:
+        parts.append(f'<text x="24" y="{y}" fill="#8b949e" font-family="monospace" font-size="13">{k:10}:</text>')
+        parts.append(f'<text x="125" y="{y}" fill="#c9d1d9" font-family="monospace" font-size="13">{v}</text>')
+    else:
+        anim = f'<animate attributeName="opacity" values="0;1" keyTimes="0;1" begin="{delay:.2f}s" dur="0.25s" fill="freeze"/>'
+        parts.append(f'<g opacity="0">{anim}<text x="24" y="{y}" fill="#8b949e" font-family="monospace" font-size="13">{k:10}:</text><text x="125" y="{y}" fill="#c9d1d9" font-family="monospace" font-size="13">{v}</text></g>')
 
 parts.append('<text x="24" y="338" fill="#6e7681" font-family="monospace" font-size="11">always willing to learn more_</text>')
 parts.append("</svg>")
