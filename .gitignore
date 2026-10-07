@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+source-photo.jpg
+source-photo.jpeg
+source-photo.png
+source-prepped.png
+
+WhatsApp*
+*.jpeg
+*.jpg
+*.png

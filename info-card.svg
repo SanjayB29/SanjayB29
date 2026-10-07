@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="360" viewBox="0 0 490 360">
+<rect width="100%" height="100%" rx="12" fill="#0d1117" stroke="#30363d"/>
+<circle cx="22" cy="22" r="6" fill="#ff5f56"/><circle cx="42" cy="22" r="6" fill="#ffbd2e"/><circle cx="62" cy="22" r="6" fill="#27c93f"/>
+<text x="85" y="27" fill="#8b949e" font-family="monospace" font-size="13">sanjay@github — neofetch</text>
+<text x="24" y="65" fill="#58a6ff" font-family="monospace" font-size="18" font-weight="bold">Sanjay Balamurugan</text>
+<text x="24" y="100" fill="#8b949e" font-family="monospace" font-size="13" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.00s" dur="0.18s" fill="freeze"/>Name      :</text>
+<text x="125" y="100" fill="#c9d1d9" font-family="monospace" font-size="13" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.00s" dur="0.18s" fill="freeze"/>Sanjay Balamurugan</text>
+<text x="24" y="134" fill="#8b949e" font-family="monospace" font-size="13" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.12s" dur="0.18s" fill="freeze"/>Role      :</text>
+<text x="125" y="134" fill="#c9d1d9" font-family="monospace" font-size="13" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.12s" dur="0.18s" fill="freeze"/>Software Developer</text>
+<text x="24" y="168" fill="#8b949e" font-family="monospace" font-size="13" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.24s" dur="0.18s" fill="freeze"/>Focus     :</text>
+<text x="125" y="168" fill="#c9d1d9" font-family="monospace" font-size="13" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.24s" dur="0.18s" fill="freeze"/>AI / Governance / Backend</text>
+<text x="24" y="202" fill="#8b949e" font-family="monospace" font-size="13" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.36s" dur="0.18s" fill="freeze"/>Stack     :</text>
+<text x="125" y="202" fill="#c9d1d9" font-family="monospace" font-size="13" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.36s" dur="0.18s" fill="freeze"/>Java · Python · TypeScript</text>
+<text x="24" y="236" fill="#8b949e" font-family="monospace" font-size="13" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.48s" dur="0.18s" fill="freeze"/>Tools     :</text>
+<text x="125" y="236" fill="#c9d1d9" font-family="monospace" font-size="13" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.48s" dur="0.18s" fill="freeze"/>Git · Podman · Kubernetes</text>
+<text x="24" y="270" fill="#8b949e" font-family="monospace" font-size="13" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.60s" dur="0.18s" fill="freeze"/>Building  :</text>
+<text x="125" y="270" fill="#c9d1d9" font-family="monospace" font-size="13" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.60s" dur="0.18s" fill="freeze"/>Developer tools & AI systems</text>
+<text x="24" y="304" fill="#8b949e" font-family="monospace" font-size="13" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.72s" dur="0.18s" fill="freeze"/>Based     :</text>
+<text x="125" y="304" fill="#c9d1d9" font-family="monospace" font-size="13" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.72s" dur="0.18s" fill="freeze"/>India</text>
+<text x="24" y="338" fill="#6e7681" font-family="monospace" font-size="11">always willing to learn more_</text>
+</svg>
